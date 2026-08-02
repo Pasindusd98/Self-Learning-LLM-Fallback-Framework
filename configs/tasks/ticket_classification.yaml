@@ -1,0 +1,24 @@
+task_id: "ticket_classification"
+description: "Classify incoming support tickets into a fixed set of categories."
+
+student_model_type: "classifier"
+
+thresholds:
+  assisted_mode: 0.85
+  autonomous_mode: 0.95
+
+promotion:
+  min_samples_before_promotion: 200   # lowered from 500 for demo purposes; raise for production
+  min_stable_cycles: 3
+  demotion_enabled: true
+  demotion_accuracy_floor: 0.80
+  demotion_window_size: 100
+
+retrain_schedule: "daily"
+llm_fallback_provider: "ollama"
+llm_fallback_model: "llama3.2"
+
+input_fields: ["text"]
+output_fields: ["category"]
+
+novelty_check_enabled: true
