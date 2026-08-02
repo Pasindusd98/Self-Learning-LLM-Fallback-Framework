@@ -1,0 +1,3 @@
+database_url: "sqlite:///./cascade.db"   # swap for postgresql+psycopg2://... in production
+vector_store_backend: "local"             # local | qdrant | pgvector
+log_level: "INFO"
