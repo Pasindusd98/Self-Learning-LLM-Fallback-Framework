@@ -1,0 +1,37 @@
+[
+  {"text": "I was charged twice for my subscription this month, please refund one", "category": "billing"},
+  {"text": "My invoice shows the wrong amount, can you fix it", "category": "billing"},
+  {"text": "How do I update my credit card on file", "category": "billing"},
+  {"text": "I want a refund for last month's payment", "category": "billing"},
+  {"text": "The pricing page shows a different amount than what I was charged", "category": "billing"},
+  {"text": "Can I get an invoice for my last three payments", "category": "billing"},
+  {"text": "Why was my card declined during checkout", "category": "billing"},
+  {"text": "I need to downgrade my plan and get a partial refund", "category": "billing"},
+
+  {"text": "The app crashes every time I try to upload a photo", "category": "technical"},
+  {"text": "I cannot log in, it says invalid password even though I reset it", "category": "technical"},
+  {"text": "The dashboard is not loading, just a blank white screen", "category": "technical"},
+  {"text": "Getting a 500 error when I try to export my data", "category": "technical"},
+  {"text": "The mobile app keeps freezing on the home screen", "category": "technical"},
+  {"text": "Two factor authentication code never arrives by SMS", "category": "technical"},
+  {"text": "File upload fails at 90 percent every single time", "category": "technical"},
+  {"text": "The search feature returns no results even for common terms", "category": "technical"},
+
+  {"text": "How do I add a new team member to my workspace", "category": "account"},
+  {"text": "I want to delete my account permanently", "category": "account"},
+  {"text": "Can you change the email address linked to my account", "category": "account"},
+  {"text": "I forgot which email I signed up with", "category": "account"},
+  {"text": "How do I transfer ownership of my organization to someone else", "category": "account"},
+  {"text": "My account got suspended and I don't know why", "category": "account"},
+  {"text": "I need to merge two accounts into one", "category": "account"},
+  {"text": "How do I change my username", "category": "account"},
+
+  {"text": "Do you have an API for exporting reports automatically", "category": "feature_request"},
+  {"text": "It would be great if you supported dark mode", "category": "feature_request"},
+  {"text": "Can you add integration with Slack for notifications", "category": "feature_request"},
+  {"text": "Please add support for exporting to CSV, not just PDF", "category": "feature_request"},
+  {"text": "Would love a keyboard shortcut for quick search", "category": "feature_request"},
+  {"text": "Can you support bulk editing of multiple records at once", "category": "feature_request"},
+  {"text": "Any plans to add a calendar view", "category": "feature_request"},
+  {"text": "Please let us customize the dashboard layout", "category": "feature_request"}
+]
